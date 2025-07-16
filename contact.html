@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Профессиональный массаж</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>💆‍♂️</span>
+                <h1>Профессиональный массаж</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                    <li><a href="contact.html" class="active">Контакты</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="header-contact">
+                <a href="tel:+79247314006" class="phone-link">
+                    <i class="fas fa-phone-alt"></i> 8-924-731-40-06
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Контакты</h1>
+            <p>Свяжитесь с нами для записи на сеанс</p>
+        </div>
+    </section>
+
+    <section class="contact-detail">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Записаться на сеанс</h2>
+                    <form id="appointment-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Услуга</label>
+                            <select id="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="therapeutic">Лечебный массаж</option>
+                                <option value="visceral">Висцеральный массаж</option>
+                                <option value="lymph">Лимфодренаж</option>
+                                <option value="sport">Спортивный массаж</option>
+                                <option value="relax">Релакс-массаж</option>
+                                <option value="children">Детский массаж</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Предпочтительная дата</label>
+                            <input type="date" id="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить заявку</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Контактная информация</h2>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Телефон</h3>
+                            <p><a href="tel:+79247314006">8-924-731-40-06</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:massage@example.com">massage@example.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Район выезда</h3>
+                            <p>Де-Фриз, Зима Южная, Формат и ближайшие поселки</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Часы работы</h3>
+                            <p>Ежедневно: 9:00 - 21:00</p>
+                            <p class="urgent">Срочные выезды по договоренности</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Свяжитесь через мессенджеры</h3>
+                        <div class="social-buttons">
+                            <a href="https://wa.me/79247314006" class="social-btn whatsapp">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                            <a href="https://t.me/79247314006" class="social-btn telegram">
+                                <i class="fab fa-telegram"></i> Telegram
+                            </a>
+                            <a href="viber://chat?number=79247314006" class="social-btn viber">
+                                <i class="fab fa-viber"></i> Viber
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="service-area-map">
+                <h2>Зона обслуживания</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Карта района выезда</p>
+                    </div>
+                </div>
+                <div class="area-list">
+                    <h3>Обслуживаю следующие районы:</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Де-Фриз</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Зима Южная</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Формат</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Посёлок 1</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Посёлок 2</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Посёлок 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Как происходит запись на сеанс?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Вы можете записаться по телефону, через мессенджеры или с помощью формы на сайте. После получения заявки я свяжусь с вами для уточнения деталей и согласования времени.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Что нужно подготовить к приезду специалиста?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Я приезжаю со всем необходимым оборудованием. Вам нужно только подготовить свободное пространство размером примерно 2x2 метра и чистое постельное белье или большое полотенце.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Сколько длится сеанс массажа?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Длительность зависит от выбранной услуги: от 30 минут для детского массажа до 65 минут для полного лечебного массажа. Точное время указано в описании каждой услуги.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Можно ли получить массаж ночью?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, возможны срочные и ночные выезды по предварительной договоренности. Дополнительная оплата за ночные выезды не взимается.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Профессиональный массаж</h3>
+                    <p>Сертифицированные услуги массажа с выездом на дом в районе Де-Фриз и близлежащих поселках.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Услуги</h3>
+                    <ul>
+                        <li><a href="services.html#therapeutic">Лечебный массаж</a></li>
+                        <li><a href="services.html#visceral">Висцеральный массаж</a></li>
+                        <li><a href="services.html#lymph">Лимфодренаж</a></li>
+                        <li><a href="services.html#sport">Спортивный массаж</a></li>
+                        <li><a href="services.html#relax">Релакс-массаж</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+79247314006">8-924-731-40-06</a></li>
+                        <li><i class="fas fa-envelope"></i> massage@example.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Де-Фриз и ближайшие поселки</li>
+                        <li><i class="fas fa-clock"></i> Ежедневно: 9:00 - 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Профессиональный массаж с выездом на дом. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
